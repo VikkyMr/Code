@@ -1,0 +1,74 @@
+NIDS: Detecting Unbalanced Network Traffic Intrusions with Deep Learning
+Overview
+Welcome to the Network Intrusion Detection System (NIDS) project, which focuses on detecting unbalanced network traffic intrusions using advanced deep learning techniques. This project implements the methodologies discussed in the paper:
+
+S. Pavithra and K. Venkata Vikas, "Detecting Unbalanced Network Traffic Intrusions With Deep Learning," in IEEE Access, vol. 12, pp. 74096-74107, 2024.
+Access the paper here
+DOI: 10.1109/ACCESS.2024.3405187
+
+Keywords
+Intrusion detection
+Telecommunication traffic
+Computer hacking
+Cloud computing
+Autonomous aerial vehicles
+Random forests
+Long short term memory (LSTM)
+Cyberattack
+Computer security
+Ensemble learning
+Network security
+Cyber threats
+Cyber security
+Deep learning (DL)
+Ensemble learning
+Purpose
+The primary goal of this project is to enhance the detection of network intrusions, particularly when dealing with unbalanced traffic scenarios. This is achieved by employing deep learning techniques, including Long Short-Term Memory (LSTM) networks and ensemble learning methods.
+
+Features
+Deep Learning Models: Implementation of LSTM and other deep learning architectures to model network traffic patterns.
+Ensemble Learning: Utilization of ensemble methods such as Random Forests to improve detection accuracy.
+Unbalanced Traffic Handling: Special focus on handling scenarios with unbalanced network traffic to improve detection performance.
+Network Security: Tools and techniques designed to enhance overall network security and mitigate cyber threats.
+Installation
+To set up the NIDS project on your local machine, follow these steps:
+
+Clone the Repository:
+
+bash
+Copy code
+git clone https://github.com/VikkyMr/nids.git
+Navigate to the Project Directory:
+
+bash
+Copy code
+cd nids
+Install Required Packages: Make sure you have pip installed. Then, install the necessary dependencies:
+
+bash
+Copy code
+pip install -r requirements.txt
+Run the Project: Execute the main script to start the network intrusion detection:
+
+bash
+Copy code
+python main.py
+Usage
+Data Preparation: Ensure that you have prepared your dataset according to the format required by the project.
+Configuration: Modify the configuration file (config.json) as needed for your specific environment and dataset.
+Model Training: Train the models using the provided scripts or commands.
+Detection: Use the trained models to detect intrusions in real-time network traffic.
+Contributing
+If you would like to contribute to this project, please fork the repository and submit a pull request with your changes. For major changes or improvements, open an issue to discuss potential updates before proceeding.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Contact
+For any questions or feedback, please reach out to the project maintainers at:
+
+K. Venkata Vikas
+Acknowledgments
+Special thanks to the authors of the paper "Detecting Unbalanced Network Traffic Intrusions With Deep Learning" for their innovative research and methodologies.
+
+Thank you for using the NIDS project! We hope it helps you enhance network security and effectively detect intrusions
